@@ -1,4 +1,4 @@
-# ML 
+# SEQUENCE LEARNING 
 # Motorcyclist Safety System with AI 
 
 This project has been developed to put an approach to avoid deadly motorcycle accidents. Everyday, due to the motor accidents, thousands of people die or get disabled. 
