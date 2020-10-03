@@ -7,7 +7,7 @@ These accidents are happening from both the carelessness of the bikers and the c
 Although, We all know that motorcyclists are much more vulnerable to getting an impact from an accident, !Companies still don't put the enough afford to decrease the numbers.   
 # We hope to give companies a good starting point
 
-* The model developed in this project will be tested on RPi with real time images.
+* The model will be tested on RPi with real time images. Pls keep tuned :)
 
 # My Setup:
 * Nvidia Gtx1070ti
