@@ -9,6 +9,9 @@ Although, We all know that motorcyclists are much more vulnerable to getting an 
 
 * The model will be tested on RPi with real time images. Pls keep tuned :)
 
+![vid1_gif](https://user-images.githubusercontent.com/72207119/95465463-d8f17280-0983-11eb-90fd-f8cff4dcca58.gif)
+
+
 # My Setup:
 * Nvidia Gtx1070ti
 * 4x8gb 3000Mhz memory
