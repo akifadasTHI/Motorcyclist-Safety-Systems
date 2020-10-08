@@ -33,7 +33,7 @@ Although, We all know that motorcyclists are much more vulnerable to getting an 
   - Of course, this is a project of sequence learning, so the length of the scenarios is important and it is chosen as 8, which is also the batch size.
   - There are two cameras located on a motorcycle and four major scenarios, rear_crash, rear_safe, front_crash, front_safe. Front and rear camera data have trained seperately. 
 
-# 2. Model 
+# 2. Creating Model 
 * There are three main jobs that model has to handle with, feature extraction, creating time dependency and finding weights.
   - Each scenario has to be fed into the model without being messed up with others, at the same time, scenarios should be shuffled at each epoch to decrease overfitting and to increase randomness. 
   - LSTM is used, so that sequence learning can be done. And then the last step, learning.
