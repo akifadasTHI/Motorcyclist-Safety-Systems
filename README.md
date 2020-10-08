@@ -32,6 +32,8 @@ Although, We all know that motorcyclists are much more vulnerable to getting an 
   - Image size has determined as 240x240 and field of view as 60 degrees. The reason for the image size is obviously to increase the number of scenarios that can be computed on ram at once. Optimization will always enhance your model from a couple of aspects (e.g faster array computation that would have been restricted by virtual ram). 
   - Of course, this is a project of sequence learning, so the length of the scenarios is important and it is chosen as 8, which is also the batch size.
   - There are two cameras located on a motorcycle and four major scenarios, rear_crash, rear_safe, front_crash, front_safe. Front and rear camera data have trained seperately. 
+  - Custom code to generate training and test data can be found in codes_carla folder. bela and bela2 are for rear camera and bela3 and bela4 are for front camera data.
+  - Besides, The test code on the simulation is located in codes_carla folder with the name manual_control_predicted.py. the trained_model path should be changed before begin. This test requires a vehicle with camera located at behind. This vehicle can be created by auto_motor.py, that create an autonomous motorcycle. To run this code you have to get in and change the path of the saving directory. And also use the same directory in manual_control_predicted.py. I know it looks kind of complicated, but I will add a gif showing the steps one by one.  
 
 # 2. Creating Model 
 * There are three main jobs that model has to handle with, feature extraction, creating time dependency and finding weights.
