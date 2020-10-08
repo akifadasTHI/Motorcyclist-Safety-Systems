@@ -9,8 +9,8 @@ Although, We all know that motorcyclists are much more vulnerable to getting an 
 
 * The model will be tested on RPi with real time images. Pls keep tuned :)
 
-![](images/)
-
+<img align="center" src="images/vid1_gif.gif" width = 600>
+<img align="center" src="images/vid2_gif.gif" width = 600>
 
 # My Setup:
 * Nvidia Gtx1070ti
