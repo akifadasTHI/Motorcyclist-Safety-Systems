@@ -26,6 +26,8 @@ Although, We all know that motorcyclists are much more vulnerable to getting an 
 
 <img align="right" src="images/carla_logo.jpg" width = 300>
 
+<img align="right" src="images/car.jpg" width = 250>
+
 
 * Carla(0.9.9.4) has been used to get training and test scenarios. The trained model will be tested on real-life records.
   - To increase the randomness of scenarios, vehicles(except motorcycle) and weather were changed randomly. Of course, dark and foggy sky scenarios haven't used.  
