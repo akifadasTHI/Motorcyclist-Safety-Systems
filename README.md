@@ -39,3 +39,6 @@ Although, We all know that motorcyclists are much more vulnerable to getting an 
 * There are three main jobs that model has to handle with, feature extraction, creating time dependency and finding weights.
   - Each scenario has to be fed into the model without being messed up with others, at the same time, scenarios should be shuffled at each epoch to decrease overfitting and to increase randomness. 
   - LSTM is used, so that sequence learning can be done. And then the last step, learning.
+
+# 3. Real-life Test
+* Before testing on live camera fastened on a motorcycle, I took dummy test videos like in the gifs at the beginning. First, I took video, then increased the speed on premiere, then ran video_test.py, that takes the given video and pulls the frames to predict through the trained_model.h5. It labels each frame, and saves it. Again I used premiere to save sequence of frames as video.   
