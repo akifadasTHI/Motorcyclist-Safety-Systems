@@ -42,10 +42,10 @@ Although, We all know that motorcyclists are much more vulnerable to getting an 
 
 * There are three main jobs that model has to handle with, feature extraction, creating time dependency and finding weights.
   - Each scenario has to be fed into the model without being messed up with others, at the same time, scenarios should be shuffled at each epoch to decrease overfitting and to increase randomness. 
-  -For beginners:
-    -CNN is used, so that features of images can be extracted well.  
-    -LSTM is used, so that sequence learning can be done. LSTM is a RNN algorithm, that eliminates the long-term depency. 
-    -Dense layer is used to increase the complexity and the number of the weight. Output neuron number has a crucial importance here. It can be selected by a simple hyperparametre optimizer, I will share mine as soon as possible.
+  - For beginners:
+    - CNN is used, so that features of images can be extracted well.  
+    - LSTM is used, so that sequence learning can be done. LSTM is a RNN algorithm, that eliminates the long-term depency. 
+    - Dense layer is used to increase the complexity and the number of the weight. Output neuron number has a crucial importance here. It can be selected by a simple hyperparametre optimizer, I will share mine as soon as possible.
     - Droupout layers are used to get rid of overfitting.
  
 
