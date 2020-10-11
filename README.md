@@ -21,6 +21,12 @@ Although, We all know that motorcyclists are much more vulnerable to getting an 
 * Sata ssd
 * i7 8700k
 
+# Config
+* Tensorflow 2.0
+* CUDA 10.1
+* python 3.7
+* Carla(0.9.9.4)
+
 # 1. Collecting Training DATA
 
 
